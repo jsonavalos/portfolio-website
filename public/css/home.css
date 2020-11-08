@@ -1,0 +1,5 @@
+#main_background {
+    background-image: url("/static/images/bulbs.jpg");
+    background-repeat: no-repeat;
+    height: 120vh;
+}
