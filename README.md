@@ -2,14 +2,14 @@
 Using Express , NodeJS and mySQL
 
 
-##Clone the project to your local machine
-`git clone` 
+## Clone the project to your local machine
+`git clone https://github.com/jsonavalos/electrician-website.git` 
 
-##Install the dependencies by running the following command in the directory where you cloned the project
+## Install the dependencies by running the following command in the directory where you cloned the project
 `npm install` 
 
-##Run the project
-`npn run dev` 
+## Run the project
+`npm run dev` 
 
-##Open your browser and follow this link:
+## Open your browser and follow this link:
 [Link to website](http://127.0.0.1:3000/) 
