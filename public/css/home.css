@@ -7,3 +7,19 @@
     background-size: cover;
     height: 120vh;
 }
+
+#project-title:hover {
+    color: red;
+    font-size: 25vh !important;
+ }
+
+#experimental {
+    border: .01px;
+}
+
+#experimental:hover {
+    border-style: inset;
+    border-left-color: aqua ;
+    border-top-color: aqua ;
+    border-radius: 20px;
+}
