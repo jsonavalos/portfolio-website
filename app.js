@@ -11,6 +11,11 @@ app.get('/', (req,res) => {
 	res.render("home",{name: "Jason Avalos"});
 });
 
+app.get(/.*/,(req,res)=>{
+	res.redirect('/');
+
+});
+
 app.get('/experience', (req,res) => {
 	res.send('Inside experience page');
 

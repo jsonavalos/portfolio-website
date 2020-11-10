@@ -1,6 +1,11 @@
+/*
+Variables for top navigation bar -- later used with a forEach loop to scrollView
+*/
 var contact_link = document.getElementById("contact-link");
 var projects_link = document.getElementById("projects-link");
-var links = [contact_link,projects_link];
+var internships_link = document.getElementById("internships-link");
+var skills_link = document.getElementById("skills-link");
+var links = [contact_link,projects_link,internships_link,skills_link];
 
 var projects = [
     {
