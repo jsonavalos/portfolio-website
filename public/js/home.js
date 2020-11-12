@@ -1,6 +1,8 @@
 /*
 Variables for top navigation bar -- later used with a forEach loop to scrollView
 */
+
+
 var contact_link = document.getElementById("contact-link");
 var projects_link = document.getElementById("projects-link");
 var internships_link = document.getElementById("internships-link");
@@ -9,34 +11,40 @@ var links = [contact_link,projects_link,internships_link,skills_link];
 
 var projects = [
     {
-        name: "Chrome Extension",
-        link: "www.google.com",
-        description: "I made this project to "
+        name: "Velocity Raptor Chrome Extension",
+        link: "https://github.com/cse112-sp20/CalamariCrew",
+        description: "I made this project to ",
+        tools: [" Typescript "," Javascript "," HTML "," NodeJS "]
     },
     {
         name: "Portfolio WebApp",
-        link: "www.google.com",
-        description: "I made this project to "
+        link: "https://github.com/jsonavalos/resume",
+        description: "I made this project to ",
+        tools: [" React "," JSX "," HTML "," CSS "]
     },
     {
         name: "LinkUp WebApp",
-        link: "www.google.com",
-        description: "I made this project to "
+        link: "https://github.com/Justin-sd/LinkUp",
+        description: "I made this project to ",
+        tools: [" Django "," sqlite "," Python "," HTML "," Javascript"," CSS"]
     },
     {
-        name: "Link Shortener",
+        name: "Link Shortener API",
         link: "www.google.com",
-        description: "I made this project to "
+        description: "I made this project to ",
+        tools: [" Flask "," Python "," MongoDB "]
     },
     {
         name: "Email mySQL database",
-        link: "www.google.com",
-        description: "I made this project to "
+        link: "https://github.com/jsonavalos/express-mysql-app",
+        description: "I made this project to ",
+        tools: [" Express "," NodeJS "," MySQL "]
     },
     {
         name: "Jason's Website",
-        link: "www.google.com",
-        description: "I made this project to "
+        link: "https://github.com/jsonavalos/electrician-website",
+        description: "Hi",
+        tools: [" Express "," NodeJs "," HTML "," CSS "," Javascript "]
     }
 ]
 
@@ -60,13 +68,14 @@ function createProjects(index){
         <div class="column is-4">
         <div class="card is-shady" id="experimental">
             <div class="card-image has-text-centered">
-                <i class="fa fa-paw"></i>
+                
             </div>
             <div class="card-content">
                 <div class="content">
-                    <h4>${projects[index].name}</h4>
+                    <h4 class="is-family-code">${projects[index].name}</h4>
                     <p>${projects[index].description}</p>
-                    <p><a href="#">${projects[index].link}</a></p>
+                    <h6><span style="color: red">{</span>${projects[index].tools}<span style="color: red">}</span></h6>
+                    <p><a href="${projects[index].link}" target="_blank">#LinkToCode</a></p>
                 </div>
             </div>
              </div>

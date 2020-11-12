@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Velocity Raptor Chrome Extension",
+        "link": "https://github.com/cse112-sp20/CalamariCrew",
+        "description": "I made this project to "
+    },
+    {
+        "name": "Portfolio WebApp",
+        "link": "https://github.com/jsonavalos/resume",
+        "description": "I made this project to "
+    },
+    {
+        "name": "LinkUp WebApp",
+        "link": "https://github.com/Justin-sd/LinkUp",
+        "description": "I made this project to "
+    },
+    {
+        "name": "Link Shortener API",
+        "link": "www.google.com",
+        "description": "I made this project to "
+    },
+    {
+        "name": "Email mySQL database",
+        "link": "https://github.com/jsonavalos/express-mysql-app",
+        "description": "I made this project to "
+    },
+    {
+        "name": "Jason's Website",
+        "link": "https://github.com/jsonavalos/electrician-website",
+        "description": "Hi"
+    }
+]
