@@ -13,7 +13,7 @@ var projects = [
     {
         name: "Velocity Raptor Chrome Extension",
         link: "https://github.com/cse112-sp20/CalamariCrew",
-        description: "I made this project to ",
+        description: "Team project for a Software Engineering class.As a database specialist, my tasks were to create the SQLite schema, implement it and help front-end coders with the app's design. ",
         tools: [" Typescript "," Javascript "," HTML "," NodeJS "]
     },
     {
@@ -74,6 +74,7 @@ function createProjects(index){
                 <div class="content">
                     <h4 class="is-family-code">${projects[index].name}</h4>
                     <p>${projects[index].description}</p>
+                    <h7 class="is-italic"><u>Technologies:</u></h7>
                     <h6><span style="color: red">{</span>${projects[index].tools}<span style="color: red">}</span></h6>
                     <p><a href="${projects[index].link}" target="_blank">#LinkToCode</a></p>
                 </div>
@@ -97,7 +98,6 @@ for(var i =0 ; i < projects.length/3 ; i++){
 }
      projects_content.innerHTML = result;
      event.preventDefault();
-
 });
 
 
