@@ -16,18 +16,4 @@ app.get(/.*/,(req,res)=>{
 
 });
 
-app.get('/experience', (req,res) => {
-	res.send('Inside experience page');
-
-});
-
-app.post('/contactrequest', (req,res) => {
-	var q = 'INSER INTO quotes ?';
-	//const {name,email,number,description} = req.body;
-	//console.log(name+email+number+description);
-	// should be (q, [info])
-	console.log(req.body);
-});
-
-
 app.listen(port,console.log(`Listenning to port: ${port}`)); 
