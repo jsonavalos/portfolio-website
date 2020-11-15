@@ -30,7 +30,7 @@ var projects = [
     },
     {
         name: "Link Shortener API",
-        link: "www.google.com",
+        link: "https://github.com/jsonavalos/url-shortener",
         description: "Small API created to make links shorter.I implemented this API using Flask, Python and MongoDB in order to leverage my skills using a back-end server and learning about the basic functions of CRUD.",
         tools: [" Flask "," Python "," MongoDB "]
     },
@@ -43,7 +43,7 @@ var projects = [
     {
         name: "Jason's Website",
         link: "https://github.com/jsonavalos/electrician-website",
-        description: "<strong>this</strong> website was created to practice with back-end servers",
+        description: "This website was created to practice with a back-end server and create a summary of skills",
         tools: [" Express "," NodeJS "," HTML "," CSS "," Javascript "]
     }
 ]
