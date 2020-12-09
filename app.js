@@ -12,8 +12,8 @@ app.get('/', (req,res) => {
 	res.render("home",{name: "Jason Avalos"});
 });
 
-app.get('/.well-known/pki-validation/11D1B573BD9DAD0FC1368F6CAD3BA5A8.txt',(req,res)=>{
-	res.sendFile(path.join(__dirname+ "/views/11D1B573BD9DAD0FC1368F6CAD3BA5A8.txt"));
+app.get('/.well-known/pki-validation/320FC86E43E0833797F539CBAFFFB288.txt',(req,res)=>{
+	res.sendFile(path.join(__dirname+ "/views/320FC86E43E0833797F539CBAFFFB288.txt"));
 });
 
 app.get(/.*/,(req,res)=>{
