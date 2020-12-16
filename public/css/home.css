@@ -1,11 +1,8 @@
 #main_background {
-    background-image: url("/static/images/NASA.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
     width: 100vw;
-  
-  
 }
 
 #experimental {
