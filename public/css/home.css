@@ -1,6 +1,7 @@
 #main_background {
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("/static/images/NASA.jpg");
     height: 70vh;
     width: 100vw;
 }
