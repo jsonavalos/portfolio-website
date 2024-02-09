@@ -2,32 +2,13 @@
 Variables for top navigation bar -- later used with a forEach loop to scrollView
 */
 
-
 var contact_link = document.getElementById("contact-link");
 var projects_link = document.getElementById("projects-link");
 var internships_link = document.getElementById("internships-link");
 var skills_link = document.getElementById("skills-link");
 var links = [contact_link,projects_link,internships_link,skills_link];
 
-var projects = [
-    {
-        name: "Velocity Raptor Chrome Extension",
-        link: "https://github.com/cse112-sp20/CalamariCrew",
-        description: "This Chrome Extension was part of a Software Engineering class. Its main purpose is to keep track of sprints using GitHub in an agile team to keep track of velocity. I was in charge of coding the Front-End using HTML, CSS, Bootstrap and JavaScript.",
-        tools: [" Typescript "," Javascript "," HTML "," NodeJS "]
-    },
-    {
-        name: "Portfolio WebApp",
-        link: "https://github.com/jsonavalos/resume",
-        description: "Personal project to create a website using new technologies and learning about Components in React",
-        tools: [" React "," JSX "," HTML "," CSS "]
-    },
-    {
-        name: "LinkUp WebApp",
-        link: "https://github.com/Justin-sd/LinkUp",
-        description: "Team project for a Software Engineering class.As a database specialist, my tasks were to create the SQLite schema, implement it and help front-end coders with the app's design. ",
-        tools: [" Django "," sqlite "," Python "," HTML "," Javascript"," CSS"]
-    },
+var projects = [ // move to a different file?
     {
         name: "Link Shortener API",
         link: "https://github.com/jsonavalos/url-shortener",
@@ -99,6 +80,4 @@ for(var i =0 ; i < projects.length/3 ; i++){
      projects_content.innerHTML = result;
      event.preventDefault();
 });
-
-
 
