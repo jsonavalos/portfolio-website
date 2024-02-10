@@ -17,15 +17,8 @@
   </script>
    </head>
    <body>
-      <section class="hero is-bold" id="main_background">
-         <%- include('navbar'); -%>
-         <div class="hero-body">
-            <div class="container has-text-centered">
-               <h1 class="title is-primary">
-               </h1>
-            </div>
-         </div>
-      </section>
+      <%- include('navbar'); -%>
+    
       <section >
          <div class="box has-text-centered">
             <h1 class="is-size-1 is-family-code" >About <span id="typewriter" style="color: blue;"></span></h1>
@@ -128,7 +121,7 @@
          <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
          <script>
             new Typewriter('#typewriter', {
-              strings: ['Me','Jason'],
+              strings: ['Jason Avalos', 'Me'],
               autoStart: true,
               loop: true,
               delay: 500
