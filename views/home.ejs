@@ -1,138 +1,59 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="/static/images/NASA.jpg" type="image/x-icon">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-      <!-- Bulma Version 0.9.0-->
-      <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-      <link rel="stylesheet" type="text/css" href="../css/hero.css">
-      <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-      <link rel="stylesheet" href="/static/css/home.css" />
-      <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-      <script type="text/javascript"
-      src="../public/js/data/data.js">
-  </script>
-   </head>
-   <body>
-      <%- include('navbar'); -%>
-    
-      <section >
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="/static/images/NASA.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <!-- Bulma Version 0.9.0-->
+   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+   <link rel="stylesheet" type="text/css" href="../css/hero.css">
+   <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+   <link rel="stylesheet" href="/static/css/home.css" />
+   <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+   <script type="text/javascript" src="../public/js/data/data.js">
+   </script>
+</head>
+
+<body>
+   <%- include('navbar'); -%>
+      <section>
          <div class="box has-text-centered">
-            <h1 class="is-size-1 is-family-code" >About <span id="typewriter" style="color: blue;"></span></h1>
+            <h1 class="is-size-1 is-family-code">About <span id="typewriter" style="color: blue;"></span></h1>
          </div>
-         <p class="is-family-code has-text-centered" >Need to update
+         <p class="is-family-code has-text-centered">Need to update what can I do here
          </p>
       </section>
       <section class="has-text-centered">
       </section>
-      <%- include('projects'); %> 
-      <!-- Begin Skills Content -->
-      <section class="container" style="margin-top: 5%;">
-         <div class="box has-text-left">
-            <h1 class="is-size-1 is-family-code" id="skills-link-view">Skills</h1>
-         </div>
-         <div class="section-light skills " id="skills">
-            <div class="container">
-               <div class="columns is-multiline">
-                  <div
-                     class="column is-6"
-                     data-aos="fade-in"
-                     data-aos-easing="linear"
-                     >
-                     <h1>Express</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>React</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>NodeJS</h1>
-                     <progress class="progress" value="95" max="100">95%</progress>
-                     <h1>Javascript</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>Typescript</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>HTML</h1>
-                     <progress class="progress" value="95" max="100">95%</progress>
-                     <h1>CSS</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>Client-Server Interaction</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>Restful API</h1>
-                     <progress class="progress" value="90" max="100">95%</progress>
-                     <h1>CRUD</h1>
-                     <progress class="progress" value="90" max="100">95%</progress>
-                  </div>
-                  <div
-                     class="column is-6"
-                     data-aos="fade-in"
-                     data-aos-easing="linear"
-                     >
-                     <h1>Bootstrap</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>Python</h1>
-                     <progress class="progress" value="95" max="100">95%</progress>
-                     <h1>Java</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>C++/C</h1>
-                     <progress class="progress" value="95" max="100">95%</progress>
-                     <h1>Linux</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>Android APP Development</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>MySQL</h1>
-                     <progress class="progress" value="90" max="100">95%</progress>
-                     <h1>Elasticsearch</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>MongoDB</h1>
-                     <progress class="progress" value="90" max="100">90%</progress>
-                     <h1>DynamoDB</h1>
-                     <progress class="progress" value="90" max="100">95%</progress>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End Skills Content -->
-      <section class="section">
-         <div class="box has-text-centered">
-            <h1 class="is-size-1 is-family-code" id="internships-link-view">Internships</h1>
-         </div>
-         <div class="columns">
-            <div class="column is-8 is-offset-2">
-               <div class="content is-medium">
-                  <h2 class="subtitle is-4">October, 2020 - Present</h2>
-                  <h1 class="title">Skinalytics Intern</h1>
-                  <ul>
-                     <li>Volunteered to help a start-up with a new Android App that serves as a social media platform for people to share their experience with different skin products.</li>
-                     <li>Design and implement search input boxes using API calls to the database storing brands and products.</li>
-                     <li>Help with encryption and decryption of users’ sensitive information.</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <hr>
-      </section>
-      </section>
-      <footer class="footer">
-         <%- include('contact'); -%>
-         <script src="../js/bulma.js"></script>
-         <script src="/static/js/home.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
-         <script>
-            new Typewriter('#typewriter', {
-              strings: ['Jason Avalos', 'Me'],
-              autoStart: true,
-              loop: true,
-              delay: 500
-            });
-         </script>
-         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-         <script>
-            AOS.init({
-              once: true
-            });
-         </script>
-      </footer>
-   </body>
+      <%- include('projects'); %>
+         <!-- Begin Skills Content -->
+         <%- include('skills'); %>
+            <%- include('internships'); %>
+
+               </section>
+               <footer class="footer">
+                  <%- include('contact'); -%>
+                     <script src="../js/bulma.js"></script>
+                     <script src="/static/js/home.js"></script>
+                     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+                     <script>
+                        new Typewriter('#typewriter', {
+                           strings: ['Jason Avalos', 'Me'],
+                           autoStart: true,
+                           loop: true,
+                           delay: 500
+                        });
+                     </script>
+                     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                     <script>
+                        AOS.init({
+                           once: true
+                        });
+                     </script>
+               </footer>
+</body>
+
 </html>

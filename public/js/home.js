@@ -7,6 +7,7 @@ var projects_link = document.getElementById("projects-link");
 var internships_link = document.getElementById("internships-link");
 var skills_link = document.getElementById("skills-link");
 var links = [contact_link,projects_link,internships_link,skills_link];
+var languagesDrawer = document.getElementById("languages-drawer");
 
 var projects = [ // move to a different file?
     {
@@ -81,3 +82,8 @@ for(var i =0 ; i < projects.length/3 ; i++){
      event.preventDefault();
 });
 
+
+
+languagesDrawer.addEventListener('click', (event) => {
+    document.getElementById("languages-drawer-content").style.display = "block"
+})
