@@ -7,7 +7,8 @@ var projects_link = document.getElementById("projects-link");
 var internships_link = document.getElementById("internships-link");
 var skills_link = document.getElementById("skills-link");
 var links = [contact_link,projects_link,internships_link,skills_link];
-var languagesDrawer = document.getElementById("languages-drawer");
+var drawerElements = document.getElementsByClassName("drawer")
+
 
 var projects = [ // move to a different file?
     {
@@ -83,7 +84,15 @@ for(var i =0 ; i < projects.length/3 ; i++){
 });
 
 
-
-languagesDrawer.addEventListener('click', (event) => {
-    document.getElementById("languages-drawer-content").style.display = "block"
-})
+for (let i = 0; i < drawerElements.length; i++) {
+    drawerElements[i].addEventListener('click', (event) => {
+        
+        var currentStyleDisplay = drawerElements[i].getElementsByTagName('div')[0].style.display;
+        if(currentStyleDisplay == "block"){
+            drawerElements[i].getElementsByTagName('div')[0].style.display = "none";
+        }
+        else{
+            drawerElements[i].getElementsByTagName('div')[0].style.display = "block";
+        }     
+    });
+  }

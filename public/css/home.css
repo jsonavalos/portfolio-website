@@ -8,3 +8,7 @@
     border-top-color: aqua ;
     border-radius: 20px;
 }
+
+.drawer div{
+    display: none;
+}
