@@ -12,3 +12,14 @@
 .drawer div{
     display: none;
 }
+
+.drawer:hover {
+    background-color: rgb(0, 0, 0);
+    color:  white;
+}
+
+.nohover {
+    background-color: white;
+    color: black;
+}
+

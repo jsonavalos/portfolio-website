@@ -2,14 +2,17 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const bodyParser = require('body-parser')
+const programingLanguages = ["java", "python", "kotlin"]
 
-const port = process.env.PORT || 3005;
+const port = process.env.PORT || 3009;
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true })); //to read requests 
 app.use('/static', express.static('public'))
 
+
+
 app.get('/', (req, res) => {
-	res.render("home", { name: "Jason Avalos" });
+	res.render("home", { name: "Jason Avalos", programingLanguages: programingLanguages });
 });
 
 app.get('/.well-known/pki-validation/320FC86E43E0833797F539CBAFFFB288.txt', (req, res) => {
