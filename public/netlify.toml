@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/home.ejs"
-  status = 200

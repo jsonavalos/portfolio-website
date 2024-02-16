@@ -14,9 +14,9 @@
    <link rel="stylesheet" href="/static/css/home.css" />
    <link href="https://languages.abranhe.com/logos.css" rel="stylesheet">
    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-   <script type="text/javascript" src="../public/js/data/data.js">
    </script>
 </head>
+
 
 <body>
    <%- include('navbar'); -%>
@@ -29,11 +29,9 @@
       </section>
       <section class="has-text-centered">
       </section>
+      <%- include('skills'); %>
       <%- include('projects'); %>
-         <!-- Begin Skills Content -->
-         <%- include('skills'); %>
             <%- include('internships'); %>
-
                </section>
                <footer class="footer">
                   <%- include('contact'); -%>
