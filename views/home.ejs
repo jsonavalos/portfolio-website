@@ -31,34 +31,35 @@
             knowledge. His interests are Android/iOS/website development, machine learning, AI, and big data analysis.
             Feel free to check out this website to learn more about Jason's projects and skills.
          </p>
-       
+
       </section>
       <section class="has-text-centered">
       </section>
       <%- include('skills'); %>
          <%- include('projects'); %>
             <%- include('internships'); %>
-               </section>
-               <footer class="footer">
-                  <%- include('contact'); -%>
-                     <script src="../js/bulma.js"></script>
-                     <script src="/static/js/home.js"></script>
-                     <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
-                     <script>
-                        new Typewriter('#typewriter', {
-                           strings: ['Jason Avalos', 'Me'],
-                           autoStart: true,
-                           loop: true,
-                           delay: 500
-                        });
-                     </script>
-                     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                     <script>
-                        AOS.init({
-                           once: true
-                        });
-                     </script>
-               </footer>
+               <%- include('coursework'); %>
+                  </section>
+                  <footer class="footer">
+                     <%- include('contact'); -%>
+                        <script src="../js/bulma.js"></script>
+                        <script src="/static/js/home.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+                        <script>
+                           new Typewriter('#typewriter', {
+                              strings: ['Jason Avalos', 'Me'],
+                              autoStart: true,
+                              loop: true,
+                              delay: 500
+                           });
+                        </script>
+                        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                        <script>
+                           AOS.init({
+                              once: true
+                           });
+                        </script>
+                  </footer>
 </body>
 
 </html>
