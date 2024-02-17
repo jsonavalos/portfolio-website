@@ -26,3 +26,6 @@
 #ul-courses {
     list-style: none;
 }
+
+#ul-courses li { color: black; }
+#ul-courses li:nth-child(odd) { color: grey; }
