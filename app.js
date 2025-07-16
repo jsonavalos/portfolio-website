@@ -10,7 +10,35 @@ app.use('/static', express.static('public'))
 
 
 app.get('/', (req, res) => {
-	res.render("home", { name: "Jason Avalos" });
+	res.render("home", { name: "Jason Avalos" ,
+title: 'Data Scientist & ML Engineer',
+    about: 'I specialize in building data-driven solutions to business problems using machine learning, statistics, and software development.',
+    projects: [
+      {
+        title: 'Loan Default Prediction',
+        description: 'Built a predictive model using XGBoost on financial datasets.',
+        image: '/images/loan-project.jpg',
+        link: 'https://github.com/your-repo/loan-default',
+        tags: ['Python', 'XGBoost', 'Pandas']
+      },
+      // ...more projects
+    ],
+    skills: ['Python', 'R', 'TensorFlow', 'SQL', 'Scikit-learn', 'Tableau'],
+    email: 'jsonavalos@gmail.com'
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+	);
 });
 
 app.get('/.well-known/pki-validation/320FC86E43E0833797F539CBAFFFB288.txt', (req, res) => {
