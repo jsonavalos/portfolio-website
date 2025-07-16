@@ -11,8 +11,8 @@ app.use('/static', express.static('public'))
 
 app.get('/', (req, res) => {
 	res.render("home", { name: "Jason Avalos" ,
-title: 'Data Scientist & ML Engineer',
-    about: 'I specialize in building data-driven solutions to business problems using machine learning, statistics, and software development.',
+title: 'Future Data Scientist and Machine Learning Engineer specializing in Finance',
+    about: 'I enjoy building data-driven solutions to business problems using machine learning, statistics, and software development.',
     projects: [
       {
         title: 'Loan Default Prediction',
