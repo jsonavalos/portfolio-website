@@ -1,4 +1,4 @@
-# electrician-website
+# portfolio-website
 Using Express , NodeJS and mySQL
 
 
