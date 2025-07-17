@@ -11,19 +11,27 @@ app.use('/static', express.static('public'))
 
 app.get('/', (req, res) => {
 	res.render("home", { name: "Jason Avalos" ,
-title: 'Future Data Scientist and Machine Learning Engineer specializing in Finance',
+    title: 'Future Data Scientist and Machine Learning Engineer specializing in Finance',
     about: 'I enjoy building data-driven solutions to business problems using machine learning, statistics, and software development.',
+    icon_image: '/static/images/javalos.jpeg',
     projects: [
       {
         title: 'Loan Default Prediction',
         description: 'Built a predictive model using XGBoost on financial datasets.',
-        image: '/images/loan-project.jpg',
+        image: '/static/images/javalos.jpeg',
+        link: 'https://github.com/your-repo/loan-default',
+        tags: ['Python', 'XGBoost', 'Pandas']
+      },
+            {
+        title: 'Loan Default Prediction',
+        description: 'Built a predictive model using XGBoost on financial datasets.',
+        image: '/static/images/javalos.jpeg',
         link: 'https://github.com/your-repo/loan-default',
         tags: ['Python', 'XGBoost', 'Pandas']
       },
       // ...more projects
     ],
-    skills: ['Python', 'R', 'TensorFlow', 'SQL', 'Scikit-learn', 'Tableau'],
+    skills: ['Python', 'R', 'TensorFlow', 'SQL', 'Scikit-learn', 'Tableau', 'PowerBI'],
     email: 'jsonavalos@gmail.com'
 
 	}
