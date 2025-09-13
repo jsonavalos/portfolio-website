@@ -3,7 +3,7 @@ Using Express , NodeJS and mySQL
 
 
 ## Clone the project to your local machine
-`git clone https://github.com/jsonavalos/electrician-website.git` 
+`git clone https://github.com/jsonavalos/portfolio-website.git` 
 
 ## Install the dependencies by running the following command in the directory where you cloned the project
 `npm install` 
