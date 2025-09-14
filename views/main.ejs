@@ -65,13 +65,21 @@
             <img src="<%= project.image %>" alt="<%= project.title %> screenshot" class="w-full h-48 object-cover" />
             <div class="p-6 flex flex-col h-full">
               <h3 class="text-2xl font-semibold mb-2 text-indigo-300"><%= project.title %></h3>
-              <p class="flex-grow text-gray-300 mb-4"><%= project.description %></p>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <% project.tags.forEach(tag => { %>
-                <span class="bg-indigo-600 text-xs px-3 py-1 rounded-full font-medium"><%= tag %></span>
-                <% }) %>
-              </div>
-              <a href="<%= project.link %>" target="_blank" class="mt-auto text-indigo-400 font-medium hover:underline">View Project &rarr;</a>
+              <p class="text-gray-300 mb-2"><%= project.description %></p>
+
+<div class="flex flex-wrap gap-2 mb-3">
+  <% project.tags.forEach(tag => { %>
+    <span class="bg-indigo-600 text-xs px-3 py-1 rounded-full font-medium"><%= tag %></span>
+  <% }) %>
+</div>
+
+<div class="text-center">
+  <a href="<%= project.link %>" target="_blank" 
+     class="text-indigo-400 font-semibold hover:text-indigo-200">
+     🔗 View Project →
+  </a>
+</div>
+
             </div>
           </article>
           <% }) %>
