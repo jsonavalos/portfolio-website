@@ -8,7 +8,6 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/static', express.static('public'))
 
-
 app.get('/', (req, res) => {
 	res.render("home", { name: "Jason Avalos" ,
     title: 'Future Data Scientist and Machine Learning Engineer specializing in Finance',
@@ -16,11 +15,11 @@ app.get('/', (req, res) => {
     icon_image: '/static/images/javalos.jpeg',
     projects: [
       {
-        title: 'Loan Default Prediction',
-        description: 'Built a predictive model using XGBoost on financial datasets.',
+        title: 'West Coast Credit Consultancy',
+        description: 'Class: Foundations of Data Science and Data Ethics',
         image: '/static/images/javalos.jpeg',
-        link: 'https://github.com/your-repo/loan-default',
-        tags: ['Python', 'XGBoost', 'Pandas']
+        link: 'https://github.com/jsonavalos/ADS501-Project',
+        tags: ['Python', 'Linear Regression', 'Pandas']
       },
             {
         title: 'Loan Default Prediction',
@@ -35,17 +34,6 @@ app.get('/', (req, res) => {
     email: 'jsonavalos@gmail.com'
 
 	}
-
-
-
-
-
-
-
-
-
-
-
 	);
 });
 
@@ -58,3 +46,4 @@ app.get(/.*/, (req, res) => {
 });
 
 app.listen(port, console.log(`Listenning to port: ${port}`)); 
+
