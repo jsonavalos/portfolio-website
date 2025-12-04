@@ -15,18 +15,18 @@ app.get('/', (req, res) => {
     icon_image: '/static/images/javalos.jpeg',
     projects: [
       {
-        title: 'West Coast Credit Consultancy',
-        description: 'Class: Foundations of Data Science and Data Ethics',
-        image: '/static/images/javalos.jpeg',
-        link: 'https://github.com/jsonavalos/ADS501-Project',
-        tags: ['Python', 'Linear Regression', 'Pandas']
+        title: 'Future-Proofing TSA Operations: Data-Driven Resource Optimization',
+        description: 'This project develops a data-driven passenger forecasting and workforce optimization model for the U.S. Transportation Security Administration (TSA)',
+        image: '/static/images/STL decomposition.png',
+        link: 'https://github.com/jsonavalos/TSA-Analysis.git',
+        tags: ['R/RStudio/Quarto', 'Time Series Forecasting', 'ARIMA/ETS Modeling', ' Rolling Origin', 'ggplot']
       },
-            {
-        title: 'Loan Default Prediction',
-        description: 'Built a predictive model using XGBoost on financial datasets.',
-        image: '/static/images/javalos.jpeg',
-        link: 'https://github.com/your-repo/loan-default',
-        tags: ['Python', 'XGBoost', 'Pandas']
+       {
+        title: 'Australian Wines Forecasting — Shiny App',
+        description: 'This project provides an interactive Shiny application for exploring, modeling, and forecasting monthly Australian wine sales by varietal.',
+        image: '/static/images/Wines Time Series.png',
+        link: 'https://019ab99f-ce00-6edb-470f-ca090ad12efd.share.connect.posit.cloud/',
+        tags: ['R/Positron', 'fpp3', 'fable', 'tsibble', 'ETS/ARIMA/TSLM', 'Time Series Forecasting']
       },
       // ...more projects
     ],
