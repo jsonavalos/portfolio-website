@@ -37,7 +37,36 @@ app.get('/', (req, res) => {
     },
       // ...more projects
     ],
-    skills: ['Python', 'R', 'TensorFlow', 'SQL', 'Scikit-learn', 'Tableau', 'PowerBI'],
+    skills: [
+  'Python',
+  'R',
+  'TensorFlow',
+  'SQL',
+  'Scikit-learn',
+  'Tableau',
+  'Power BI',
+  'Pandas',
+  'NumPy',
+  'Matplotlib',
+  'Seaborn',
+  'PyTorch',
+  'Keras',
+  'Spark',
+  'Hadoop',
+  'AWS (S3, EC2, SageMaker)',
+  'Google Cloud Platform (BigQuery, Vertex AI)',
+  'Data Cleaning & Wrangling',
+  'Feature Engineering',
+  'Machine Learning',
+  'Deep Learning',
+  'Natural Language Processing (NLP)',
+  'Computer Vision',
+  'Time Series Forecasting',
+  'Statistical Modeling',
+  'A/B Testing',
+  'Data Pipelines',
+  'Git/GitHub'
+],
     email: 'jsonavalos@gmail.com'
 
 	}
