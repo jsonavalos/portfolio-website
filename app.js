@@ -28,6 +28,13 @@ app.get('/', (req, res) => {
         link: 'https://019ab99f-ce00-6edb-470f-ca090ad12efd.share.connect.posit.cloud/',
         tags: ['R/Positron', 'fpp3', 'fable', 'tsibble', 'ETS/ARIMA/TSLM', 'Time Series Forecasting']
       },
+      {
+    title: 'Los Angeles Litigation Dashboard — Tableau',
+    description: 'This project visualizes legal claims and lawsuit trends against the City of Los Angeles, highlighting award growth, case counts, and average costs by allegation type to inform risk management and policy decisions.',
+    image: '/static/images/Tableau LA.png',
+    link: 'https://public.tableau.com/app/profile/jason.avalos/viz/Hw7_17610226607310/LosAngelesAwardsandLitigationDashboard',
+    tags: ['Tableau', 'Data Visualization', 'Public Sector Analytics', 'Legal Claims Analysis', 'Dashboard Design']
+    },
       // ...more projects
     ],
     skills: ['Python', 'R', 'TensorFlow', 'SQL', 'Scikit-learn', 'Tableau', 'PowerBI'],
