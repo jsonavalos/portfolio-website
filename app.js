@@ -35,6 +35,13 @@ app.get('/', (req, res) => {
     link: 'https://public.tableau.com/app/profile/jason.avalos/viz/Hw7_17610226607310/LosAngelesAwardsandLitigationDashboard',
     tags: ['Tableau', 'Data Visualization', 'Public Sector Analytics', 'Legal Claims Analysis', 'Dashboard Design']
     },
+     {
+    title: 'Maven Roasters (BrewPoint Analytics)',
+    description: 'Forecasting next-hour café revenue and turning it into staffing, prep (pars), and upsell actions across three NYC stores.',
+    image: '/static/images/Maven Rosters.png',
+    link: 'https://github.com/jsonavalos/ADS-505',
+    tags: ['Python', 'Time-Based Time Analysis','Basket Analysis', 'KPI analysis', 'Transaction-Level Analysis', 'Sales Optimization']
+    },
       // ...more projects
     ],
     skills: [
