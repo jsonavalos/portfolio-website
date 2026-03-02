@@ -42,6 +42,13 @@ app.get('/', (req, res) => {
     link: 'https://github.com/jsonavalos/ADS-505',
     tags: ['Python', 'Time-Based Time Analysis','Basket Analysis', 'KPI analysis', 'Transaction-Level Analysis', 'Sales Optimization']
     },
+         {
+    title: 'ETL - Oscar Films Streaming Analysis',
+    description: 'An end-to-end ETL pipeline that consolidates movie metadata, Oscar Awards history, and streaming availability into a unified relational dataset. The project integrates heterogeneous film datasets, standardizes formats, resolves inconsistencies, and loads the cleaned data into Azure SQL for downstream analysis of award trends, film attributes, and platform distribution.',
+    image: '/static/images/etl-icon-vector.jpg',
+    link: 'https://github.com/jsonavalos/automated-etl-pipeline',
+    tags: ['Python', 'ETL', 'Data Engineering', 'API Integration', 'Azure SQL', 'Data Cleaning', 'Data Modeling', 'Streaming Analytics', 'Film Analytics']
+    },
       // ...more projects
     ],
     skills: [
