@@ -49,6 +49,25 @@ app.get('/', (req, res) => {
     link: 'https://github.com/jsonavalos/automated-etl-pipeline',
     tags: ['Python', 'ETL', 'Data Engineering', 'API Integration', 'Azure SQL', 'Data Cleaning', 'Data Modeling', 'Streaming Analytics', 'Film Analytics']
     },
+    {
+  title: 'FinOps Agent – Cloud Spend Intelligence & Automation',
+  description: 'A Streamlit-based FinOps assistant that enables finance and engineering teams to analyze cloud-spend data, generate insights, and automate cost-governance communication. The agent integrates BigQuery for FOCUS-style billing analytics, Gemini 2.5 Flash for natural‑language SQL generation, and a multi‑turn email approval workflow with SMTP delivery. It supports anomaly detection, executive summaries, cost-driver analysis, and a full Draft → Revise → Approve → Send email pipeline with Markdown previews and strict validation.',
+  image: '/static/images/FinOpsAgent.png',
+  link: 'https://github.com/jsonavalos/finops-agent',
+  tags: [
+    'Python',
+    'Streamlit',
+    'FinOps',
+    'BigQuery',
+    'Gemini',
+    'LLM Agents',
+    'Cloud Cost Analytics',
+    'SMTP',
+    'Email Automation',
+    'Data Engineering',
+    'Natural Language SQL'
+  ]
+}
       // ...more projects
     ],
     skills: [
