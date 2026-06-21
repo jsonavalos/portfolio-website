@@ -79,6 +79,13 @@
      class="text-indigo-400 font-semibold hover:text-indigo-200">
      🔗 View Project →
   </a>
+  <% if (project.live) { %>
+    <br>
+    <a href="<%= project.live %>" target="_blank"
+       class="text-indigo-400 font-semibold hover:text-indigo-200">
+       🚀 Live Demo →
+    </a>
+  <% } %>
 </div>
 
             </div>

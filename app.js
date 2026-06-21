@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const bodyParser = require('body-parser')
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/static', express.static('public'))
@@ -53,7 +53,8 @@ app.get('/', (req, res) => {
   title: 'FinOps Agent – Cloud Spend Intelligence & Automation',
   description: 'A Streamlit-based FinOps assistant that enables finance and engineering teams to analyze cloud-spend data, generate insights, and automate cost-governance communication. The agent integrates BigQuery for FOCUS-style billing analytics, Gemini 2.5 Flash for natural‑language SQL generation, and a multi‑turn email approval workflow with SMTP delivery. It supports anomaly detection, executive summaries, cost-driver analysis, and a full Draft → Revise → Approve → Send email pipeline with Markdown previews and strict validation.',
   image: '/static/images/FinOpsAgent.png',
-  link: 'https://github.com/jsonavalos/finops-agent',
+  link: 'https://github.com/jsonavalos/ADS-509-Project',
+  live: 'https://jsonavalos-ads-509-project-app-vuasvk.streamlit.app/',
   tags: [
     'Python',
     'Streamlit',
